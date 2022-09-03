@@ -1,0 +1,93 @@
+.savings{
+    height: 1027px;
+    width: 1522px;
+    border-radius: 45px;
+    background-color: #5EB1BF;
+    padding-top: 170px;
+    h2{
+        font-family: Neo Sans Std, Roboto;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F5FAFB;
+        margin-bottom: 84px;
+        margin-left: 140px;
+    }
+    form{
+        gap: 120px;
+        .savings-row{
+            display: flex;
+            flex-direction: column;
+        }
+        button{
+            height: 120px;
+            width: 995px;
+            border-radius: 16px;
+            background-color: #FFA723;
+            border: none;
+            font-family: Neo Sans Std,Roboto;
+            font-size: 39px;
+            font-weight: 700;
+            line-height: 47px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 41px;
+        }
+        .checkbox-container{
+            gap: 120px;
+            padding-left: 188px;
+        }
+    }
+}
+input[type=checkbox] {
+    opacity: 0;
+    width: 47px;
+    height: 47px;
+}
+.checkbox-wrapper{
+    margin-bottom: 52px;
+    .checkbox{
+        width: 47px;
+        height: 47px;
+        background-color: #5EB1BF;
+        border: 3px solid #ffffff;
+        margin-right: 39px;
+        position: relative;
+        border-radius: 5px; 
+    }
+    .checkbox::after{
+        content: "";
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        width: 12px;
+        height: 22px;
+        border: solid white;
+        border-width: 0 4px 4px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        display: block;
+    }
+    input:checked ~ .checkbox {
+        background-color: #FFA723;
+    }
+
+    label{
+        font-family: Roboto;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+    }
+
+}

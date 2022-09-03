@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.entry{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+
+// Components
+@import url('./components/top-section.scss');
+@import url('./components/nav.scss');
+@import url('./components/footer.scss');
+@import url('./components/testimony.scss');
+@import url('./components/savings.scss');
+
+//pages
+@import url('./pages/home.scss');
+@import url('./pages/learn-more.scss');

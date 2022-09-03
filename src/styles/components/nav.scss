@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 239px;
+    padding-right: 328px;
+    padding-top: 27px;
+}
+
+nav div{
+    width: 179px;
+    height: 28px;
+    background-color: #ffffff;
+}
+nav a{
+    color: #ffffff;
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
